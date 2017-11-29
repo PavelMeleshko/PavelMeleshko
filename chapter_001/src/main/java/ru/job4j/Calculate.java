@@ -1,6 +1,6 @@
 package ru.job4j;
 /**
-* Class Класс моей первой программы 
+* Class 
 * @author Pavel Meleshko (ottotige@mail.ru)
 * @version 1
 * @since 29.11.2017
@@ -8,19 +8,12 @@ package ru.job4j;
 
 
      public class Calculate{
-
 /**
-* Содержание
-* @param Hellow world.
-* @param метод для вывода первой надписи.
-*/
-
-
-        public static void main(String[] args){
-            System.out.println("Hellow World"); 
-
- 
-
-
-}   
+ * Method echo.
+*  @param name Pavel.
+*  @return Echo plus Pavel.
+*/ 
+         public String echo(String name) {
+             return "Echo, echo, echo : " + name;
+}  
 }
