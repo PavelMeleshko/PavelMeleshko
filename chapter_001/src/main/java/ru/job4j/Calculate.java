@@ -5,9 +5,7 @@ package ru.job4j;
 * @version 1
 * @since 29.11.2017
 */
-
-
-     public class Calculate{
+         public class Calculate {
 /**
  * Method echo.
 *  @param name Pavel.
