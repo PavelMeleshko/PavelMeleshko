@@ -5,7 +5,14 @@ package ru.job4j;
 * @version 1
 * @since 29.11.2017
 */
-         public class Calculate {
+public class Calculate {
+    /**
+     * Main.
+     * @param args - args.
+     */
+    public static void main (String[] args) {
+        System.out.println ("Hello world");
+    }
 /**
  * Method echo.
 *  @param name Pavel.
@@ -13,5 +20,5 @@ package ru.job4j;
 */ 
          public String echo(String name) {
              return "Echo, echo, echo : " + name;
-         }  
-     }
+         }
+}
