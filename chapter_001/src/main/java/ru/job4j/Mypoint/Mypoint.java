@@ -29,8 +29,8 @@ public class Point {
      }
 
      public static void main (String[] args) {
-         Point a = new Point(0,1);
-         Point b = new Point(2,5);
+         Point a = new Point(9,3);
+         Point b = new Point(1,7);
          System.out.println("w1 = " + a.w);
          System.out.println("q1 = " + a.q);
          System.out.println("w2 = " + b.w);
