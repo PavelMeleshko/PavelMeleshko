@@ -5,38 +5,22 @@ package ru.job4j.mypoint;
  * @version 1
  * @since 08.12.2017
  */
+public class mypoint {
+    private int w;
+    private int q;
 
-public class Point {
+    public mypoint(int w, int q) {
+        this.w = w;
+        this.q = q;
+    }
 
-     private int w;
-     private int q;
+    public double distanceTo(mypoint that) {
+        return  Math.sqrt(Math.pow(this.w - that.w, 2) + Math.pow(this.q - that.q, 2));
 
-     public Point(int w, int q) {
-         this.w = w;
-         this.q = q;
-     }
+    }
 
-     public double distanceTo(Point that) {
-         Point a = this;
-         Point b = that;
-
-         int w1 = a.w;
-         int q1 = a.q;
-         int w2 = b.w;
-         int q2 = b.q;
-         double result = Math.sqrt(Math.pow(w2 - w1, 2) + Math.pow(q2 - q1, 2));
-         return result;
-     }
-
-     public static void main (String[] args) {
-         Point a = new Point(9,3);
-         Point b = new Point(1,7);
-         System.out.println("w1 = " + a.w);
-         System.out.println("q1 = " + a.q);
-         System.out.println("w2 = " + b.w);
-         System.out.ptintln("q2 = " + b.q);
-
-         double result = a.distanceTo(b);
-         System.out.pintln("Рачтояние между точками А и В : " + result);
-     }
+    public static void main (String[] args) {
+        mypoint a = new mypoint(9,3);
+        mypoint b = new mypoint(1,7);
+    }
 }
