@@ -16,4 +16,10 @@ public class MaxTest {
       int result = maxim.max(1, 2);
       assertThat(result, is(2));
    }
+   @Test
+   public void whenMaxOfThreeNumbers() {
+      Max maxim = new Max();
+      int result = maxim.max(3, 4, 1);
+      assertThat(result, is(4));
+   }
 }
