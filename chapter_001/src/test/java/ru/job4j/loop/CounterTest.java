@@ -1,7 +1,5 @@
 package ru.job4j.loop;
-
 import org.junit.Test;
-
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
@@ -10,7 +8,6 @@ import static org.junit.Assert.assertThat;
  * @version  1
  * @sinse 13.12.2017
  */
-
 public class CounterTest {
    @Test
    public void whenSumEvenNumberFromOneToTenThirty() {
