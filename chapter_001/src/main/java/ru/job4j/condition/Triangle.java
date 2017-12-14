@@ -36,6 +36,12 @@ public class Triangle {
    }
  
    private boolean exist(double ab, double ac, double bc) {
-      return ab > 0 & ac > 0 & bc > 0 ? true : false;
+	  boolean exist;
+      if (ab > 0 & ac > 0 & bc > 0) {
+         exist = true; 
+      } else {
+         exist = false; 
+      }
+   return exist;
    }   
 }
